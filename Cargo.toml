@@ -3,6 +3,5 @@ name = "fishing_script"
 version = "0.1.0"
 edition = "2021"
 
-
-[dependencies]
-osbot_api = { git = "https://github.com/Pat-ji/stub_api", features = ["script"] }
+[lib]
+crate-type = ["cdylib"]
